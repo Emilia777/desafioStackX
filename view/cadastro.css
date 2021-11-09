@@ -1,0 +1,47 @@
+body{
+    background-color: #03363D;
+    justify-items: center;
+    justify-content: center;
+}
+
+h2{
+    color: white;
+    justify-content: justify;
+    margin-top: 30px;
+    
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    right: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: white;
+    padding: 50px;
+    border: 1px solid rgba(0, 0, 0,.1);
+    box-sizing: border-box;
+    box-shadow: 0 5px 10px  black;
+    border-radius: 5px;
+}
+
+.container input[type="submit"]
+{
+    border-bottom: none;
+    cursor: pointer;
+    background-color:#03363D;
+    color: white;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    width: 100%;
+    position: relative;
+    top: 0.5px;
+    box-shadow: none;
+    height: 50px;
+}
+
+.container input[type="submit"]:hover{
+    background-color: rgb(22, 142, 158);
+    color: white;
+}
+

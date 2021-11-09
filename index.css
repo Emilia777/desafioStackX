@@ -1,0 +1,75 @@
+body{
+    justify-content: center;
+    background-color: #03363D;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    color: white;
+    justify-content: justify;
+    margin-top: 30px;
+}
+
+.table-responsive{
+    background-color: whitesmoke;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+th{
+    background-color:rgb(22, 142, 158);
+    font-size: 1.2rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: cell;
+}
+
+.voting{
+    position: relative;
+    border-radius: 5px;
+    padding: 3px;
+    display: flex;
+    justify-content: center; 
+}
+
+.fa{
+    color: rgb(22, 142, 158);
+    background: none;
+    border: none;
+    font-size: 20px;
+    padding: 0 5px;
+    margin: 2px 0;
+    margin-left: 2px;
+    cursor: pointer;
+}
+
+.fa:active{
+    color: #FE5000;
+    transform: scale(1);
+}
+
+.buttonAdicionar{
+    background-color: #FE5000;
+    color: white;
+    width: 150px;
+    height: 50px;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    justify-content: right;
+    
+}
+
+.buttonAdicionar:hover{
+    background-color: rgb(204, 67, 3);
+    color: white;
+}
+
+.buttonAdicionar:active{
+    position: relative;
+    top: 0.5px;
+    box-shadow: none;
+}
+
